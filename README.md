@@ -69,7 +69,7 @@ to discuss ideas.
 ## Security
 
 Please do not report vulnerabilities in public issues. Use GitHub's private
-vulnerability reporting (Security tab). A full `SECURITY.md` is coming soon.
+vulnerability reporting (Security tab). Read `SECURITY.md` for more info.
 
 ## Licence
 

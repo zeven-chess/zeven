@@ -27,7 +27,7 @@ decisions in `docs/adr/`, and review of the methodology as it is documented.
 3. Open a pull request and fill in the template.
 4. Automated checks must pass, and a maintainer will review.
 
-Once CI exists, it will run linting, type checks and tests on every pull
+CI tests, will run linting, type checks and tests on every pull
 request. We aim to keep checks fast, and to explain any failure clearly.
 
 ## Contribution rules
