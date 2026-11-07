@@ -1,0 +1,21 @@
+[project]
+name = "zeven"
+version = "0.0.0"
+description = "Free, open-source chess improvement platform"
+requires-python = ">=3.12"
+license = "AGPL-3.0-or-later"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.414",
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.4",
+]
